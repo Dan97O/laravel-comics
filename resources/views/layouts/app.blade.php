@@ -18,7 +18,7 @@
     <main>
         @yield('content')
     </main>
-
+@include('comics')
 
 
 
