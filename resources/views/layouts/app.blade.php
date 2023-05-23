@@ -18,8 +18,6 @@
     <main>
         @yield('content')
     </main>
-@include('comics')
-
 
 
     @include('partials.footer')
