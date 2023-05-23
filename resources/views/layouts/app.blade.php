@@ -8,11 +8,13 @@
 
     <title>Laravel</title>
 
-
+    @vite('resources/js/app.js')
 </head>
 
 <body>
+    @include('partials.header')
 
+    @include('partials.footer')
 </body>
 
 </html>
